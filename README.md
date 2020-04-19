@@ -21,5 +21,5 @@ Links to Edit the Current Page and to the Dashboard are already included, you do
 - Other links are created by right clicking on desired admin links and pasting the URLs.
 - Creating a link to Create a new page right click on the "Add New" link and copy the URL
 - The copied url should look similar to this `https://www.yoururl.com/wp-admin/post-new.php?post_type=page` but use only the **post-new.php?post_type=page** <br />
-### The procedure is the same for custom post types as well. ###
+**The procedure is the same for custom post types as well.***<br />
 For a CPT called video the full url is `https://www.yoururl.com/wp-admin/post-new.php?post_type=video` again only use **post-new.php?post_type=video**
