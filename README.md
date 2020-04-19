@@ -14,3 +14,6 @@ Links to Edit the Current Page and to the Dashboard are already included, you do
 - Copy the admin-bar.php file to your current theme's folder
 - Use php include or what ever means you prefer to add the admin-bar.php file to the bottom of your footer.php just above the </body> or whereever your closing body tag is.
 - **Disable the front-end toolbar** for this correctly you will need to unchech **Show Toolbar when viewing site** from each Admin users profile.
+
+## Usage & Installation
+---
