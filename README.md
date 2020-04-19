@@ -15,5 +15,9 @@ Links to Edit the Current Page and to the Dashboard are already included, you do
 - Use php include or what ever means you prefer to add the admin-bar.php file to the bottom of your footer.php just above the </body> or whereever your closing body tag is.
 - **Disable the front-end toolbar** for this correctly you will need to unchech **Show Toolbar when viewing site** from each Admin users profile.
 
-## Usage & Installation
+## Creating Links
 ---
+- Predifined links such as the Dashboard and Edit page are constant and never change. The user only needs to add a Dash Icon and Tooltip
+- Other links are created by right clicking on desired admin links and pasting the URLs.
+- Creating a link to Create a new page right click on the "Add New" link and copy the URL
+- The copied url should look similar to this **https://www.yoururl.com/wp-admin/post-new.php?post_type=page** but use only the **post-new.php?post_type=page** <br /><br /> The procedure is the same for custom post types as well. <br /><br /> For a CPT called video the full url is **https://www.yoururl.com/wp-admin/post-new.php?post_type=video** again only use **post-new.php?post_type=video**
