@@ -1,0 +1,306 @@
+[
+    {
+        "key": "group_5e9b7f88aea7d",
+        "title": "Admin Bar",
+        "fields": [
+            {
+                "key": "field_5e9b7fd27c3b6",
+                "label": "Admin Bar",
+                "name": "admin_bar",
+                "type": "flexible_content",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "layouts": {
+                    "layout_5e9b7fe6b5d44": {
+                        "key": "layout_5e9b7fe6b5d44",
+                        "name": "dashboard",
+                        "label": "Dashboard",
+                        "display": "block",
+                        "sub_fields": [
+                            {
+                                "key": "field_5e9b80437c3b8",
+                                "label": "Directios",
+                                "name": "",
+                                "type": "message",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "message": "Link to Dashboard",
+                                "new_lines": "wpautop",
+                                "esc_html": 0
+                            },
+                            {
+                                "key": "field_5e9b800b7c3b7",
+                                "label": "Dash Icon",
+                                "name": "dash_icon",
+                                "type": "text",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "50",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": "",
+                                "maxlength": ""
+                            },
+                            {
+                                "key": "field_5e9b88146d27d",
+                                "label": "Title",
+                                "name": "title",
+                                "type": "text",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "50",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": "",
+                                "maxlength": ""
+                            }
+                        ],
+                        "min": "",
+                        "max": ""
+                    },
+                    "layout_5e9b8a31fca03": {
+                        "key": "layout_5e9b8a31fca03",
+                        "name": "edit_page",
+                        "label": "Edit Page",
+                        "display": "block",
+                        "sub_fields": [
+                            {
+                                "key": "field_5e9b8a3efca04",
+                                "label": "Directions",
+                                "name": "",
+                                "type": "message",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "message": "LInk to edit current page.",
+                                "new_lines": "wpautop",
+                                "esc_html": 0
+                            },
+                            {
+                                "key": "field_5e9b8a68fca05",
+                                "label": "Dash Icon",
+                                "name": "dash_icon",
+                                "type": "text",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "50",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": "",
+                                "maxlength": ""
+                            },
+                            {
+                                "key": "field_5e9b8a83fca06",
+                                "label": "Title",
+                                "name": "title",
+                                "type": "text",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "50",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": "",
+                                "maxlength": ""
+                            }
+                        ],
+                        "min": "",
+                        "max": ""
+                    },
+                    "layout_5e9b80797c3b9": {
+                        "key": "layout_5e9b80797c3b9",
+                        "name": "custom_link",
+                        "label": "Custom Link",
+                        "display": "block",
+                        "sub_fields": [
+                            {
+                                "key": "field_5e9b80887c3ba",
+                                "label": "Admin Link",
+                                "name": "admin_link",
+                                "type": "text",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "33.33",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": "",
+                                "maxlength": ""
+                            },
+                            {
+                                "key": "field_5e9b809c7c3bb",
+                                "label": "Dash Icon",
+                                "name": "dash_icon",
+                                "type": "text",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "33.33",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": "",
+                                "maxlength": ""
+                            },
+                            {
+                                "key": "field_5e9b88446d27e",
+                                "label": "Title",
+                                "name": "title",
+                                "type": "text",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "33.33",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": "",
+                                "maxlength": ""
+                            }
+                        ],
+                        "min": "",
+                        "max": ""
+                    },
+                    "layout_5e9b80b57c3bc": {
+                        "key": "layout_5e9b80b57c3bc",
+                        "name": "logout",
+                        "label": "Logout",
+                        "display": "block",
+                        "sub_fields": [
+                            {
+                                "key": "field_5e9b80bf7c3bd",
+                                "label": "Directions",
+                                "name": "",
+                                "type": "message",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "message": "Link to logout",
+                                "new_lines": "wpautop",
+                                "esc_html": 0
+                            },
+                            {
+                                "key": "field_5e9b80d67c3be",
+                                "label": "Dash Icons",
+                                "name": "dash_icons",
+                                "type": "text",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "50",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": "",
+                                "maxlength": ""
+                            },
+                            {
+                                "key": "field_5e9b88626d27f",
+                                "label": "Title",
+                                "name": "title",
+                                "type": "text",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "50",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": "",
+                                "maxlength": ""
+                            }
+                        ],
+                        "min": "",
+                        "max": ""
+                    }
+                },
+                "button_label": "+ Admin Bar Link",
+                "min": "",
+                "max": ""
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "options_page",
+                    "operator": "==",
+                    "value": "acf-options"
+                }
+            ]
+        ],
+        "menu_order": 50,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": ""
+    }
+]
