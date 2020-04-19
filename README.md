@@ -1,1 +1,1 @@
-# WordPress-Custom-Admin-Bar
+# WordPress Custom Admin Bar
