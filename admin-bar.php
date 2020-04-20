@@ -117,12 +117,12 @@
 }
 
 .edit-btn .dashicons {
-	display: block;
-	position: relative;
-	margin: 0 auto;
+    display: block;
+    position: relative;
+    margin: 0 auto;
     color: #999;
     font-size: 24px;
-    width: 26px;
+    width: auto;
     padding: 8px 10px 15px 10px;
     white-space: nowrap;
     cursor: pointer;
