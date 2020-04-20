@@ -35,7 +35,7 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	position: absolute;
+	position: fixed;
 	top: -46px;
 	width: calc(100% - 40px);
 	left: 20px;
