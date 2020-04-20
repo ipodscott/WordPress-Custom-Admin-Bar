@@ -87,9 +87,9 @@
 
 
 .edit-btn:hover{
-	opacity: 1;
-	top: 0;
-	background-color: #333;
+    opacity: 1;
+    top: 0;
+    background-color: #333;
 }
 
 .edit-btn.add {
