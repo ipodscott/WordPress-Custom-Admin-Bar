@@ -3,7 +3,7 @@
 
 <div class="top-edit-menu">
 	<a data-title="Edit Page" class="edit-btn" href="<?php bloginfo('wpurl');?>/wp-admin/post.php?post=<?php the_ID(); ?>&action=edit"><span class="dashicons dashicons-edit"></span></a>
-	<a data-title="Dashboard" class="edit-btn settings" href="<?php bloginfo('wpurl');?>/wp-admin/"><span class="dashicons dashicons-dashboard"></span></a>
+	<a data-title="Dashboard" class="edit-btn" href="<?php bloginfo('wpurl');?>/wp-admin/"><span class="dashicons dashicons-dashboard"></span></a>
 </div>
 	
 <style type="text/css">
