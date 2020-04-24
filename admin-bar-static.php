@@ -1,10 +1,14 @@
 <?php if (current_user_can('level_10')){ ?>
 <link href="/wp-includes/css/dashicons.min.css" rel="stylesheet">
 
-<div class="top-edit-menu">
-	<a data-title="Edit Page" class="edit-btn" href="<?php bloginfo('wpurl');?>/wp-admin/post.php?post=<?php the_ID(); ?>&action=edit"><span class="dashicons dashicons-edit"></span></a>
-	<a data-title="Dashboard" class="edit-btn" href="<?php bloginfo('wpurl');?>/wp-admin/"><span class="dashicons dashicons-dashboard"></span></a>
-</div>
+	<div class="top-edit-menu">
+		<a data-title="Edit Page" class="edit-btn" href="<?php bloginfo('wpurl');?>/wp-admin/post.php?post=<?php the_ID(); ?>&action=edit"><span class="dashicons dashicons-edit"></span></a>
+		<a data-title="New Page" class="edit-btn" href="<?php bloginfo('wpurl');?>/wp-admin/post-new.php?post_type=page"><span class="dashicons dashicons-admin-page"></span></a>
+		<a data-title="Reusable Blocks" class="edit-btn" href="<?php bloginfo('wpurl');?>/wp-admin/edit.php?post_type=wp_block"><span class="dashicons dashicons-controls-repeat"></span></a>
+		<a data-title="Dashboard" class="edit-btn settings" href="<?php bloginfo('wpurl');?>/wp-admin/"><span class="dashicons dashicons-dashboard"></span></a>
+		<a data-title="Custom Fields" class="edit-btn settings" href="<?php bloginfo('wpurl');?>/wp-admin/edit.php?post_type=acf-field-group"><span class="dashicons dashicons-welcome-widgets-menus"></span></a>
+		<a data-title="Theme Settings" class="edit-btn settings" href="<?php bloginfo('wpurl');?>/wp-admin/admin.php?page=theme-general-settings"><span class="dashicons dashicons-admin-generic"></span></a>
+	</div>
 	
 <style type="text/css">
 
